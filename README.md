@@ -1,5 +1,4 @@
-#
-LeGRNets (LeGR-pruned MobileNetV2)
+# LeGRNets (LeGR-pruned MobileNetV2)
 
 This is the training code used to train LeGR-pruned network. We use TPU to conduct training. We first find affine transformations, and prune MobileNetV2 accordingly, and obtain the resulting structure and hard-code it in the training code (this reposity) to train on TPUs.
 
